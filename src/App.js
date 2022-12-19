@@ -1,8 +1,14 @@
-function App() {
+import React from "react";
+import { Route, Routes } from  "react-router-dom"
+import { Beranda } from "./pages";
+
+const App = () => {
   return (
-    <div className="">
-      App
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Beranda/>} />
+      </Routes>
+    </>
   );
 }
 

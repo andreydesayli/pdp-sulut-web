@@ -1,11 +1,11 @@
 import React from 'react'
-import { BusinessContent, Card, Footer, Heading, Slider } from '../../components'
+import { BusinessContent, Card, Footer, Header, Slider } from '../../components'
 import { maps, integrated, ubs, selfSupport, businessScope, financePerformance} from '../../assets'
 
 function Beranda() {
   return (
     <div className=' w-screen'>
-        <Heading />
+        <Header />
         <div className=' flex flex-col w-screen pt-[120px] items-center'>
             <h1 className=' font-montserrat font-bold text-black text-[44px]'>MEMBANGUN BERSAMA MENUJU SEJAHTERA</h1>
             <p className=' font-inter font-regular text-[#867979] text-[18px] w-[908px] text-center'>Perusahaan pembangunan daerah terkemuka untuk membangun daerah menjadi tempat yang lebih baik serta mewujudkan impian menjadi kenyataan dengan proyek pembangunan yang sukses</p>

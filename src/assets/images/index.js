@@ -27,6 +27,9 @@ import financePerformance from "./financePerformance.png"
 import location from "./location.png"
 import mail from "./sms.png"
 import phone from "./call.png"
+import vision from "./vision.png"
+import mision from "./mision.png"
+import arrowRight from "./arrow-right.png"
 
 export {
     image1,
@@ -57,5 +60,8 @@ export {
     financePerformance,
     location,
     phone,
-    mail
+    mail,
+    vision,
+    mision,
+    arrowRight
 }

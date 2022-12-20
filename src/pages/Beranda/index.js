@@ -1,6 +1,6 @@
 import React from 'react'
-import { BusinessContent, Card, Heading, Slider } from '../../components'
-import { maps, integrated, ubs, selfSupport, businessScope, financePerformance, location, phone, mail } from '../../assets'
+import { BusinessContent, Card, Footer, Heading, Slider } from '../../components'
+import { maps, integrated, ubs, selfSupport, businessScope, financePerformance} from '../../assets'
 
 function Beranda() {
   return (
@@ -58,27 +58,11 @@ function Beranda() {
         <div className=' w-screen h-[434px] flex flex-col items-center bg-[#F3F2F2] mt-[120px] px-[64px] pt-[104px]'>
             <h1 className=' font-montserrat font-semibold text-black text-[44px]'>MULAILAH BERSAMA PD. PEMBANGUNAN SULUT</h1>
             <p className=' w-[847px] font-inter font-regular text-[#867979] text-[18px] text-center mt-[16px]'>Berfungsi sebagai panduan dan arahan dalam mengelola kegiatan bisnis serta menentukan langkah-langkah jangka panjang untuk perkembangan perusahaan di masa mendatang</p>
-            <div className='w-[200px] h-[56px] bg-[#C32222] flex justify-center items-center rounded-lg mt-[60px] cursor-pointer'>
+            <div className='w-[200px] h-[56px] bg-[#C32222] flex justify-center items-center rounded-lg mt-[60px] cursor-pointer hover:opacity-75'>
                 <p className=' font-inter font-semibold text-[#ffffff] text-[16px]'>Get Started</p>
             </div>
         </div>
-        <div className='flex mt-[64px] px-[64px]'>
-            <div>
-                <p className=' font-montserrat font-semibold text-black text-[24px]'>PD. PEMBANGUNAN SULUT</p>
-                <div className=' flex mt-[36px] items-center'>
-                    <img className='h-[24px] mr-[16px]' src={location} alt='/' />
-                    <p>Jln. 17 Manado Sulawesi Utara</p>
-                </div>
-                <div className=' flex mt-[22px] items-center'>
-                    <img className='h-[24px] mr-[16px]' src={mail} alt='/' />
-                    <p>pdpembangunan@gmail.com</p>
-                </div>
-                <div className=' flex mt-[22px] items-center'>
-                    <img className='h-[24px] mr-[16px]' src={phone} alt='/' />
-                    <p>+628213654789</p>
-                </div>
-            </div>
-        </div>
+        <Footer />
     </div>
   )
 }

@@ -30,6 +30,13 @@ import phone from "./call.png"
 import vision from "./vision.png"
 import mision from "./mision.png"
 import arrowRight from "./arrow-right.png"
+import dirut from "./dirut.png"
+import dirpp from "./dpp.png"
+import dirops from "./dirops.png"
+import sdm1 from "./sdm1.png"
+import sdm2 from "./sdm2.png"
+import sdm3 from "./sdm3.png"
+import sdm4 from "./sdm4.png"
 
 export {
     image1,
@@ -63,5 +70,12 @@ export {
     mail,
     vision,
     mision,
-    arrowRight
+    arrowRight,
+    dirut,
+    dirpp,
+    dirops,
+    sdm1,
+    sdm2,
+    sdm3,
+    sdm4
 }

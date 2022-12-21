@@ -4,6 +4,9 @@ import BusinessContent from "./BusinessContent";
 import Card from "./Card";
 import Footer from "./Footer";
 import ProfileContent from "./ProfileContent";
+import VisionMision from "./VisionMision"
+import OrganizationalStructure from "./OrganizationalStructure";
+import BpCard from "./BpCard";
 
 export {
     Header,
@@ -11,5 +14,8 @@ export {
     BusinessContent,
     Card,
     Footer,
-    ProfileContent
+    ProfileContent,
+    VisionMision,
+    OrganizationalStructure,
+    BpCard
 };

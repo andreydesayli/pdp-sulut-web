@@ -7,6 +7,7 @@ import ProfileContent from "./ProfileContent";
 import VisionMision from "./VisionMision"
 import OrganizationalStructure from "./OrganizationalStructure";
 import BpCard from "./BpCard";
+import SelayangPandang from "./SelayangPandang";
 
 export {
     Header,
@@ -17,5 +18,6 @@ export {
     ProfileContent,
     VisionMision,
     OrganizationalStructure,
-    BpCard
+    BpCard,
+    SelayangPandang
 };

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BusinessContent, Card, Footer, Header, Slider } from '../../components'
+import { BusinessContent, Card, Footer, Header, SelayangPandang, Slider } from '../../components'
 import { maps, integrated, ubs, selfSupport, businessScope, financePerformance} from '../../assets'
 import CompanyProfile from '../CompanyProfile';
 
@@ -40,6 +40,7 @@ function Beranda() {
             </div>
         </div>
         {content === "ProfilePerusahaan" && <CompanyProfile />}
+        {content === "SelayangPandang" && <SelayangPandang />}
         {content === "Beranda" &&
             <div>
             <div className=' flex flex-col w-screen pt-[120px] items-center'>

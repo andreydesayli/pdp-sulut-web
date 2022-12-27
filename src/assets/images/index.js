@@ -37,6 +37,10 @@ import sdm1 from "./sdm1.png"
 import sdm2 from "./sdm2.png"
 import sdm3 from "./sdm3.png"
 import sdm4 from "./sdm4.png"
+import staticsUp from "./StaticsUp.png"
+import star from "./Star.png"
+import sp1 from "./sp1.png"
+import sp2 from "./sp2.png"
 
 export {
     image1,
@@ -77,5 +81,9 @@ export {
     sdm1,
     sdm2,
     sdm3,
-    sdm4
+    sdm4,
+    staticsUp,
+    star,
+    sp1,
+    sp2
 }

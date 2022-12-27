@@ -8,15 +8,11 @@ function Footer() {
                 <p className=' font-montserrat font-semibold text-black text-[24px]'>PD. PEMBANGUNAN SULUT</p>
                 <div className=' flex mt-[36px] items-center'>
                     <img className='h-[24px] mr-[16px]' src={location} alt='/' />
-                    <p>Jln. 17 Manado Sulawesi Utara</p>
+                    <p className='font-montserrat font-regular text-[#867979] text-[14px]'>Jln. Ch. Taulu No. 59 Ling. 2 Kel. Bumi Beringin Kec. Wenang</p>
                 </div>
                 <div className=' flex my-[22px] items-center'>
                     <img className='h-[24px] mr-[16px]' src={mail} alt='/' />
-                    <p>pdpembangunan@gmail.com</p>
-                </div>
-                <div className=' flex items-center'>
-                    <img className='h-[24px] mr-[16px]' src={phone} alt='/' />
-                    <p>+628213654789</p>
+                    <p className='font-montserrat font-regular text-[#867979] text-[14px]'>pdpembangunansulut15347@gmail.com</p>
                 </div>
             </div>
             <div className=' flex'>

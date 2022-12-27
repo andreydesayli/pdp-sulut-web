@@ -11,7 +11,7 @@ const SelayangPandang = () => {
         <div className=' flex items-center font-montserrat font-medium text-[14px]'>
             <p className=' text-[#005B9C] cursor-pointer'>Beranda</p>
             <img className='h-[14px] mx-[20px]' src={arrowRight} alt=">" />
-            <p className=' text-[#120303]'>Profil Perusahaan</p>
+            <p className=' text-[#120303]'>Selayang Pandang</p>
         </div>
         <h1 className=' font-montserrat font-semibold text-[#C32222] text-[40px] mt-[20px] mb-[12px]'>Selayang Pandang PD. PEMBANGUNAN SULUT</h1>
         <p className=' font-inter font-medium text-[#867979] text-[24px]'>Ketahuilah segalanya tentang PD. PEMBANGUNAN SULUT</p>

@@ -5,7 +5,6 @@ import { arrowRight } from '../../assets'
 const CompanyProfile = () => {
   return (
     <div>
-      <Header />
       <div className='flex flex-col pt-[50px] px-[64px]'>
         <div className=' flex items-center font-montserrat font-medium text-[14px]'>
           <p className=' text-[#005B9C] cursor-pointer'>Beranda</p>
@@ -18,7 +17,6 @@ const CompanyProfile = () => {
           <ProfileContent />
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

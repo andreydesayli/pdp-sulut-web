@@ -58,20 +58,20 @@ const secondRow = [
 
 function BusinessContent() {
   return (
-    <div className=' w-[100%] px-[64px] mt-[72px]'>
-      <div className='flex'>
+    <div className=' w-[100%] px-[64px] mt-[12px] md:mt-[72px]'>
+      <div className=' grid grid-cols-2 xl:flex'>
         {firstRow.map((item) => (
-          <div className=' flex flex-col items-center mr-[20px]' key={item.id}>
-            <img className=' w-[313px] h-[200px]' src={item.img} alt='/' />
-            <p className=' w-[290px] font-montserrat font-semibold text-black text-[20px] text-center'>{item.text}</p>
+          <div className=' flex flex-col items-center mr-[20px] mt-[20px] xl:mt-0' key={item.id}>
+            <img className=' w-[169px] md:w-[313px] h-[98px] md:h-[200px]' src={item.img} alt='/' />
+            <p className=' w-[177px] md:w-[290px] font-montserrat font-semibold text-black text-[14px] md:text-[20px] text-center'>{item.text}</p>
           </div>
         ))}
       </div>
-      <div className='flex'>
+      <div className='grid grid-cols-2 xl:flex'>
         {secondRow.map((item) => (
-          <div className=' flex flex-col items-center mr-[20px] mt-[40px]' key={item.id}>
-            <img className=' w-[313px] h-[200px]' src={item.img} alt='/' />
-            <p className=' w-[262px] font-montserrat font-semibold text-black text-[20px] text-center'>{item.text}</p>
+          <div className=' flex flex-col items-center mr-[20px] mt-[20px] xl:mt-[40px]' key={item.id}>
+            <img className=' w-[169px] md:w-[313px] h-[98px] md:h-[200px]' src={item.img} alt='/' />
+            <p className=' w-[170px] md:w-[262px] font-montserrat font-semibold text-black text-[14px] md:text-[20px] text-center'>{item.text}</p>
           </div>
         ))}
       </div>

@@ -41,6 +41,7 @@ import staticsUp from "./StaticsUp.png"
 import star from "./Star.png"
 import sp1 from "./sp1.png"
 import sp2 from "./sp2.png"
+import menu from "./menu.png"
 
 export {
     image1,
@@ -85,5 +86,6 @@ export {
     staticsUp,
     star,
     sp1,
-    sp2
+    sp2,
+    menu
 }

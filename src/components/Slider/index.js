@@ -16,7 +16,7 @@ import {
 
 function Slider() {
   return (
-    <div className=' flex snap-x snap-mandatory scroll-smooth overflow-scroll mt-[48px] scrollbar-hide'>
+    <div className=' flex snap-x snap-mandatory scroll-smooth overflow-scroll mt-[20px] md:mt-[48px] scrollbar-hide'>
         {image.map((item) => (
             <div className='snap-center flex-shrink-0 mr-[20px] w-[30%]' key={item.id}>
                 <img src={item.img} alt='/' className='w-[100%] duration-300'/>

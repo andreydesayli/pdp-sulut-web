@@ -3,7 +3,7 @@ import { location, mail } from '../../assets'
 
 function Footer() {
   return (
-    <div className='flex flex-col mt-[40px] md:mt-[64px] px-[64px]'>
+    <div className='flex flex-col mt-[40px] md:mt-[64px] justify-center px-[16px] md:px-[64px]'>
         <div className='grid xl:flex w-full justify-between'>
             <div>
                 <p className=' font-montserrat font-semibold text-black text-[20px] xl:text-[24px]'>PD. PEMBANGUNAN SULUT</p>

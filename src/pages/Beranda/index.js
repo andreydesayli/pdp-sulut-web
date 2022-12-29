@@ -78,7 +78,7 @@ function Beranda() {
                     />
                 </div>
             </div>
-            <div className=' grid md:flex mt-[152px] mx-[64px] justify-between items-center'>
+            <div className=' grid md:flex mt-[56px] md:mt-[152px] mx-[64px] justify-between items-center'>
                 <img className=' w-[358px] xl:w-[646px]' src={financePerformance} alt='/' />
                 <div className=' w-[358px] md:w-[646px] mt-[18px] md:mt-0 ml-0 md:ml-[20px]'>
                     <h2 className=' font-montserrat font-semibold text-black text-[14px] md:text-[36px]'>PERFORMA FINANSIAL</h2>

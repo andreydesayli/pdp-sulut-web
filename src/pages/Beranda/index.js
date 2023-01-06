@@ -33,7 +33,10 @@ function Beranda() {
     }
     const handleClickNavbar = () => {
         setNavbar(!navbar)
-        console.log("teste", navbar)
+    }
+
+    const handleHubungiKami = () => {
+        alert("Fitur belum tersedia, coba lagi nanti.")
     }
 
   return (
@@ -44,16 +47,16 @@ function Beranda() {
                 <img className={`w-[24px] cursor-pointer  ${(navbar === true)? 'visible' : 'hidden'} duration-1000`} onClick={handleClickNavbar} src={close} alt='' />
             </div>
             <div className={` md:flex font-montserrat font-regular text-[16px] ${(navbar === true)? 'visible text-[#C32222] mt-[40px]' : 'hidden text-[#FFFFFF]'} `}>
-                <div className='flex justify-between'>
-                    <h2 className={`mr-[40px] cursor-pointer ${(changeBeranda === true)? 'font-semibold' : 'font-regular'}`} onClick={handleClickBeranda}>Beranda</h2>
+                <div className='flex justify-between' onClick={handleClickBeranda}>
+                    <h2 className={`mr-[40px] cursor-pointer ${(changeBeranda === true)? 'font-semibold' : 'font-regular'}`} >Beranda</h2>
                     <img className={`w-[24px] cursor-pointer  ${(navbar === true)? 'visible' : 'hidden'}`} onClick={handleClickNavbar} src={arrowRightRed} alt='' />
                 </div>
-                <div className='flex justify-between my-[40px] md:my-0'>
-                    <h2 className={`mr-[40px] cursor-pointer ${(changeProfil === true)? 'font-semibold' : 'font-regular'}`} onClick={handleClickProfil}>Profil Perusahaan</h2>
+                <div className='flex justify-between my-[40px] md:my-0' onClick={handleClickProfil}>
+                    <h2 className={`mr-[40px] cursor-pointer ${(changeProfil === true)? 'font-semibold' : 'font-regular'}`}>Profil Perusahaan</h2>
                     <img className={`w-[24px] cursor-pointer  ${(navbar === true)? 'visible' : 'hidden'}`} onClick={handleClickNavbar} src={arrowRightRed} alt='' />
                 </div>
-                <div className='flex justify-between'>
-                    <h2 className={`cursor-pointer ${(changeSP === true)? 'font-semibold' : 'font-regular'}`} onClick={handleClickSP}>Selayang Pandang</h2>
+                <div className='flex justify-between' onClick={handleClickSP}>
+                    <h2 className={`cursor-pointer ${(changeSP === true)? 'font-semibold' : 'font-regular'}`}>Selayang Pandang</h2>
                     <img className={`w-[24px] cursor-pointer  ${(navbar === true)? 'visible' : 'hidden'}`} onClick={handleClickNavbar} src={arrowRightRed} alt='' />
                 </div>
             </div>
@@ -71,7 +74,7 @@ function Beranda() {
                 </div>
                 <Slider />
                 <div className='flex flex-col w-screen pt-[40px] md:pt-[120px] items-center'>
-                    <h1 className=' font-montserrat font-bold text-black text-[16px] md:text-[36px]'>GARIS BESAR KEGIATAN BISNIS</h1>
+                    <h1 className=' font-montserrat font-bold text-black text-[16px] md:text-[36px] text-center'>GARIS BESAR KEGIATAN BISNIS</h1>
                     <p className=' font-inter font-regular text-[#867979] text-[12px] md:text-[18px] w-[358px] md:w-[908px] text-center'>Kinerja Manajemen PD. Pembangunan Sulut terarah pada restrukturisasi bisnis secara berkesinambungan dengan fokus pada pemberdayaan potensi sumber daya yang dimiliki Sulawesi Utara</p>
                 </div>
                 <BusinessContent />
@@ -117,8 +120,8 @@ function Beranda() {
                     <div className=' w-[358px] md:w-[100%] h-[196px] md:h-[434px] flex flex-col items-center bg-[#F3F2F2] mt-[40px] md:mt-[120px] pb-[20x] px-[22px] md:px-[64px] pt-[16px] md:pt-[104px]'>
                         <h1 className=' w-[242px] md:w-auto text-center font-montserrat font-semibold text-black text-[16px] md:text-[44px]'>MULAILAH BERSAMA PD. PEMBANGUNAN SULUT</h1>
                         <p className=' w-[314px] md:w-[847px] font-inter font-regular text-[#867979] text-[10px] md:text-[18px] text-center mt-[16px]'>Berfungsi sebagai panduan dan arahan dalam mengelola kegiatan bisnis serta menentukan langkah-langkah jangka panjang untuk perkembangan perusahaan di masa mendatang</p>
-                        <div className=' w-[119px] md:w-[200px] h-[40px] md:h-[56px] bg-[#C32222] flex justify-center items-center rounded-lg mt-[20px] md:mt-[60px] cursor-pointer hover:opacity-75'>
-                            <p className=' font-inter font-semibold text-[#ffffff] text-[14px] md:text-[16px]'>Get Started</p>
+                        <div className=' w-[119px] md:w-[200px] h-[40px] md:h-[56px] bg-[#C32222] flex justify-center items-center rounded-lg mt-[20px] md:mt-[60px] cursor-pointer hover:opacity-75' onClick={handleHubungiKami}>
+                            <p className=' font-inter font-semibold text-[#ffffff] text-[14px] md:text-[16px]'>Hubungi Kami</p>
                         </div>
                     </div>
                 </div>

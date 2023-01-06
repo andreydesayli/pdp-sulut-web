@@ -1,5 +1,6 @@
 {
   "name": "pdp-sulut-web",
+  "homepage": "https://pdpembangunansulut.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

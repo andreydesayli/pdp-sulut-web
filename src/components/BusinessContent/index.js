@@ -58,7 +58,7 @@ const secondRow = [
 
 function BusinessContent() {
   return (
-    <div className=' w-[100%] px-[64px] mt-[12px] md:mt-[72px]'>
+    <div className=' w-full pl-[16px] md:pl-[64px] mt-[12px] md:mt-[72px]'>
       <div className=' grid grid-cols-2 xl:flex'>
         {firstRow.map((item) => (
           <div className=' flex flex-col items-center mr-[20px] mt-[20px] xl:mt-0' key={item.id}>

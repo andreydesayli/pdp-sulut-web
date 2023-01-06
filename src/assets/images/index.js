@@ -42,6 +42,8 @@ import star from "./Star.png"
 import sp1 from "./sp1.png"
 import sp2 from "./sp2.png"
 import menu from "./menu.png"
+import close from "./close.png"
+import arrowRightRed from "./arrow-right-red.png"
 
 export {
     image1,
@@ -87,5 +89,7 @@ export {
     star,
     sp1,
     sp2,
-    menu
+    menu,
+    close,
+    arrowRightRed
 }

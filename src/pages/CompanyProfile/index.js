@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, ProfileContent } from '../../components'
+import { ProfileContent } from '../../components'
 import { arrowRight } from '../../assets'
 
 const CompanyProfile = () => {
